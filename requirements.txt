@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+
+pinecone
+langchain-pinecone
+
+pypdf
+unstructured
+
+streamlit
+gradio
+
+python-dotenv
+tiktoken
