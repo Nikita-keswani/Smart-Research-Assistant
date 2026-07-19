@@ -1,10 +1,10 @@
-# 📚 Smart Research Assistant
+#  Smart Research Assistant
 
 A lightweight, Retrieval-Augmented Generation (RAG) tool built with **Streamlit**, **LangChain**, **Azure OpenAI**, and **Pinecone**. This assistant allows you to upload documents (PDF and TXT), index them into a high-performance vector store, ask questions using an LLM, view references to exact source document chunks, and evaluate answers with **Ragas** reliability scores.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Document Ingestion:** Easily upload and chunk multiple PDF or TXT documents.
 - **Vector Database Integration:** Automatically creates/updates embeddings and indexes documents using a Pinecone serverless vector store.
@@ -14,7 +14,7 @@ A lightweight, Retrieval-Augmented Generation (RAG) tool built with **Streamlit*
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── app.py                # Main Streamlit UI application
@@ -35,7 +35,7 @@ A lightweight, Retrieval-Augmented Generation (RAG) tool built with **Streamlit*
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone or Open the Project
 Ensure you are in the project's root directory:
@@ -81,7 +81,7 @@ EMBEDDING_PROVIDER="azure_openai"
 
 ---
 
-## 🚀 How to Run the App
+##  How to Run the App
 
 Launch the Streamlit dashboard by running:
 ```bash
@@ -92,7 +92,7 @@ This will automatically start a local server (typically at `http://localhost:850
 
 ---
 
-## 💡 How to Use the Assistant
+##  How to Use the Assistant
 
 1. **Upload Documents:** Use the sidebar on the left to drag-and-drop or select your PDF/TXT files.
 2. **Process Files:** Check or uncheck *“Clear existing documents before uploading”*, then click **Process Documents**. The assistant will segment, embed, and upload the chunks to Pinecone.
