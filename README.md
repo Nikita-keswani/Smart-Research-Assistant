@@ -1,6 +1,6 @@
 # 📚 Smart Research Assistant
 
-A lightweight, local Retrieval-Augmented Generation (RAG) tool built with **Streamlit**, **LangChain**, **Azure OpenAI**, and **Pinecone**. This assistant allows you to upload documents (PDF and TXT), index them into a high-performance vector store, ask questions using an LLM, view references to exact source document chunks, and evaluate answers with **Ragas** reliability scores.
+A lightweight, Retrieval-Augmented Generation (RAG) tool built with **Streamlit**, **LangChain**, **Azure OpenAI**, and **Pinecone**. This assistant allows you to upload documents (PDF and TXT), index them into a high-performance vector store, ask questions using an LLM, view references to exact source document chunks, and evaluate answers with **Ragas** reliability scores.
 
 ---
 
